@@ -312,7 +312,7 @@
     "name": "FBTC",
     "type": "standard",
     "token": "FBTC",
-    "tokenAddress": "0xCAbAE6f6Ea1ecaB08Ad02fE02ce9A44F09aebfA2",
+    "tokenAddress": "0xC96dE26018A54D51c097160568752c4E3BD6C364",
     "tokenDecimals": 8,
     "earnedToken": "lendleVaultFBTC",
     "earnedTokenAddress": "0x76f4614d20977771dca6cc32e676100ca99b5c5b",
