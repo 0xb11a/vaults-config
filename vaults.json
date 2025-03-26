@@ -47,7 +47,7 @@
     "earnedTokenAddress": "0x13e25d7f121df164675de435744d6579c4cd0dd2",
     "earnContractAddress": "0x13e25d7f121df164675de435744d6579c4cd0dd2",
     "oracle": "tokens",
-    "oracleId": "mantlesUSDe",
+    "oracleId": "sUSDe",
     "status": "active",
     "createdAt": 1742968088,
     "platformId": "lendle",
