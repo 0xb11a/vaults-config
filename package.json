@@ -1,0 +1,19 @@
+{
+  "name": "addressbook",
+  "description": "A collection of useful addresses on various chains for defi development",
+  "type": "commonjs",
+  "types": ".addressbook/index.d.ts",
+  "exports": {
+    ".": {
+      "import": "./address-book/index"
+    },
+    "./*": {
+      "import": "./address-book/*/index"
+    },
+    "./types/token": {
+      "import": "./types/token"
+    }
+  },
+  "main": "./addressbook/index"
+}
+  
