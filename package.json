@@ -6,10 +6,10 @@
   "types": "./addressbook/types/token",
   "exports": {
     ".": {
-      "import": "./address-book/index"
+      "import": "./addressbook/index"
     },
     "./*": {
-      "import": "./address-book/*/index"
+      "import": "./addressbook/*/index"
     }
   },
   "main": "./addressbook/index"
