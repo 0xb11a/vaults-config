@@ -10,7 +10,7 @@
     },
     "./*": {
       "import": "./address-book/*/index"
-    },
+    }
   },
   "main": "./addressbook/index"
 }
