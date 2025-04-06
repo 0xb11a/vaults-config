@@ -137,7 +137,7 @@
     "name": "cmETH",
     "type": "standard",
     "token": "cmETH",
-    "tokenAddress": "0xcDA86A272531e8640cD7F1a92c01839911B90bb0",
+    "tokenAddress": "0xe6829d9a7ee3040e1276fa75293bde931859e8fa",
     "tokenDecimals": 18,
     "earnedToken": "lendleVaultcmETH",
     "earnedTokenAddress": "0xB2Be0a666d4c34ded06242178E8138F7CEc72100",
