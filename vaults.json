@@ -335,5 +335,34 @@
     "lendingOracle": {
       "provider": "pyth"
     }
-  } 
+  },
+  {
+    "id": "moe-lend-meth",
+    "name": "LEND-mETH LP",
+    "type": "standard",
+    "token": "LEND-mETH LP",
+    "tokenAddress": "0xFb16B5CCC62dc125834c33BF6B063c87e6e6F581",
+    "tokenDecimals": 18,
+    "tokenProviderId": "moe",
+    "earnedToken": "lendleVaultLEND-mETH",
+    "earnedTokenAddress": "0xbD5DFD70A5685c443a82A3F8524d5f7A1c0c461E",
+    "earnContractAddress": "0xbD5DFD70A5685c443a82A3F8524d5f7A1c0c461E",
+    "oracle": "lps",
+    "oracleId": "moe-lend-meth",
+    "status": "active",
+    "createdAt": 1746461780,
+    "platformId": "moe",
+    "assets": ["LEND", "mETH"],
+    "risks": ["COMPLEXITY_LOW", "IL_HIGH", "MCAP_MICRO", "AUDIT", "CONTRACTS_VERIFIED"],
+    "strategyTypeId": "lp",
+    "buyTokenUrl": "https://merchantmoe.com/trade?outputCurrency=0x25356aeca4210eF7553140edb9b8026089E49396",
+    "addLiquidityUrl": "https://merchantmoe.com/pool/v1/0x25356aeca4210eF7553140edb9b8026089E49396/0xcda86a272531e8640cd7f1a92c01839911b90bb0",
+    "network": "mantle",
+    "zaps": [
+      {
+        "strategyId": "uniswap-v2",
+        "ammId": "mantle-moe"
+      }
+    ]
+  }
 ]
