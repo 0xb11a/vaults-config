@@ -74,7 +74,7 @@
     }
   },
   {
-    "id": "lendle-vault-mnt",
+    "id": "lendle-vault-wmnt",
     "name": "WMNT",
     "type": "standard",
     "token": "WMNT",
