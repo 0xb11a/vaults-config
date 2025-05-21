@@ -23,5 +23,30 @@
         }
       }
     ]
+  },
+  {
+    "id": "brink-weth",
+    "name": "BrinkWETH",
+    "token": "WETH",
+    "tokenAddress": "0xdEAddEaDdeadDEadDEADDEAddEADDEAddead1111",
+    "vaultAddress": "0x40c91DA86FC8F20D049Fa95Ab38c1134030dbF84",
+    "vaultId": "31385508676935448566500187652900896518725887867644279705245749",
+    "formAddress": "0x6629A4187171Aa12aA6f60356E0FA96957d71835",
+    "pools": [
+      {
+        "initCapital": {
+            "type": "lending",
+            "vaultAddress": "0x0827FaaBD90143A236d7240870052aEAbeF11BEB",
+            "vaultId": "31385508676945052107461800724812414007130136398293159548614582",
+            "underlyingPoolAddress": "0x00a55649e597d463fd212fbe48a3b40f0e227d06"
+        },
+        "lendle": { 
+            "type": "lending",
+            "vaultAddress": "0x20adA30a88847aB88f0b9674EF4b816715115F62",
+            "vaultId": "31385508676944842327351434668029245365018635049123834193198979",
+            "underlyingPoolAddress": "0xD1FC69F097141189A4d46ee84E11992e6be87Cae"
+        }
+      }
+    ]
   }
 ]
