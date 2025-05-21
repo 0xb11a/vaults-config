@@ -64,5 +64,30 @@
         }
       }
     ]
+  },
+  {
+    "id": "brink-mnt",
+    "name": "BrinkMNT",
+    "token": "WMNT",
+    "tokenAddress": "0x78c1b0c915c4faa5fffa6cabf0219da63d7f4cb8",
+    "vaultAddress": "0xBD0f0F53c9B2d314C8399e624382e924cb7aa5eD",
+    "vaultId": "31385508676935552426926339342333341784761164927994329865164616",
+    "formAddress": "0x785Ae750fb3d72E6B3f5A5C190CAF1567eE09748",
+    "pools": [
+      {
+        "initCapital": {
+            "type": "lending",
+            "vaultAddress": "0xF56C53939bAd0839F76b9EC073f53025E165DB03",
+            "vaultId": "31385508676945038459843525109990509781829235037332437148831642",
+            "underlyingPoolAddress": "0x44949636f778fAD2b139E665aee11a2dc84A2976"
+        },
+        "lendle": { 
+            "type": "lending",
+            "vaultAddress": "0x380141532F1322425B4E53209d4c6f74C830BD4f",
+            "vaultId": "31385508676943760043536612103571629563142655268987005330904657",
+            "underlyingPoolAddress": "0xD1d9C7be232920BFD971b2F3B83b1C5EFe4B15d8"
+        }
+      }
+    ]
   }
 ]
