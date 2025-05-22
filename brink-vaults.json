@@ -9,31 +9,15 @@
     "formAddress": "0x223DC0eB69b4Ea96f1603c223EE6FF7Fa76945eE",
     "pools": [
       {
-        "initCapital": {
-            "type": "lending",
-            "vaultAddress": "0x6483E83617B765f856C12e289c4F1e496EC27B28",
-            "vaultId": "31385508676943665311220237687089989121305669262264294927316707",
-            "underlyingPoolAddress": "0x00a55649e597d463fd212fbe48a3b40f0e227d06"
-        },
-        "lendle": { 
-            "type": "lending",
-            "vaultAddress": "0xD19A47E9adF7D066Be5ec60193441C79905E9D36",
-            "vaultId": "31385508676943881323929887377231980380227756400480468595810932",
-            "underlyingPoolAddress": "0x43703b0FD253e1172A0F18e65d097bd7b120B7bf"
-        }
-      }
-    ],
-    "_pools": [
-      {
         "id": "initCapital",
-        "type": "lending",
+        "type": "reserve",
         "vaultAddress": "0x6483E83617B765f856C12e289c4F1e496EC27B28",
         "vaultId": "31385508676943665311220237687089989121305669262264294927316707",
         "underlyingPoolAddress": "0x00a55649e597d463fd212fbe48a3b40f0e227d06"
       },
       {
-        "id": "lendle",
-        "type": "lending",
+        "id": "lendle-vault",
+        "type": "vault",
         "vaultAddress": "0xD19A47E9adF7D066Be5ec60193441C79905E9D36",
         "vaultId": "31385508676943881323929887377231980380227756400480468595810932",
         "underlyingPoolAddress": "0x43703b0FD253e1172A0F18e65d097bd7b120B7bf"
@@ -50,28 +34,6 @@
     "formAddress": "0xE5eC6048384230a5E420f7450F3B16dcCf6eA24D",
     "pools": [
       {
-        "initCapital": {
-            "type": "reserve",
-            "vaultAddress": "0x6483E83617B765f856C12e289c4F1e496EC27B28",
-            "vaultId": "31385508676943665311220237687089989121305669262264294927316707",
-            "underlyingPoolAddress": "0x00a55649e597d463fd212fbe48a3b40f0e227d06"
-        },
-        "lendle": { 
-            "type": "vault",
-            "vaultAddress": "0xD19A47E9adF7D066Be5ec60193441C79905E9D36",
-            "vaultId": "31385508676943881323929887377231980380227756400480468595810932",
-            "underlyingPoolAddress": "0x43703b0FD253e1172A0F18e65d097bd7b120B7bf"
-        },
-        "lendle": { 
-            "type": "isolated-market",
-            "vaultAddress": "0x222eaFE0824142705a5E48DB2736b23dC16Dd95E",
-            "vaultId": "31385508676944184809331379115274741930113622762958270751775466",
-            "underlyingPoolAddress": "0x8b4e8792b052fb21129145906a392bf84af088f8"
-        },
-      }
-    ],
-    "_pools": [
-      {
         "id": "initCapital",
         "type": "reserve",
         "vaultAddress": "0x6483E83617B765f856C12e289c4F1e496EC27B28",
@@ -79,15 +41,15 @@
         "underlyingPoolAddress": "0x00a55649e597d463fd212fbe48a3b40f0e227d06"
       },
       {
-        "id": "lendle",
+        "id": "lendle1",
         "type": "vault",
         "vaultAddress": "0xD19A47E9adF7D066Be5ec60193441C79905E9D36",
         "vaultId": "31385508676943881323929887377231980380227756400480468595810932",
         "underlyingPoolAddress": "0x43703b0FD253e1172A0F18e65d097bd7b120B7bf"
       },
       {
-        "id": "lendle",
-        "type": "isolated-market",
+        "id": "lendle2",
+        "type": "reserve",
         "vaultAddress": "0x222eaFE0824142705a5E48DB2736b23dC16Dd95E",
         "vaultId": "31385508676944184809331379115274741930113622762958270751775466",
         "underlyingPoolAddress": "0x8b4e8792b052fb21129145906a392bf84af088f8"
@@ -104,31 +66,15 @@
     "formAddress": "0x6629A4187171Aa12aA6f60356E0FA96957d71835",
     "pools": [
       {
-        "initCapital": {
-            "type": "lending",
-            "vaultAddress": "0x0827FaaBD90143A236d7240870052aEAbeF11BEB",
-            "vaultId": "31385508676945052107461800724812414007130136398293159548614582",
-            "underlyingPoolAddress": "0x51AB74f8B03F0305d8dcE936B473AB587911AEC4"
-        },
-        "lendle": { 
-            "type": "lending",
-            "vaultAddress": "0x20adA30a88847aB88f0b9674EF4b816715115F62",
-            "vaultId": "31385508676944842327351434668029245365018635049123834193198979",
-            "underlyingPoolAddress": "0xD1FC69F097141189A4d46ee84E11992e6be87Cae"
-        }
-      }
-    ],
-    "_pools": [
-      {
         "id": "initCapital",
-        "type": "lending",
+        "type": "reserve",
         "vaultAddress": "0x0827FaaBD90143A236d7240870052aEAbeF11BEB",
         "vaultId": "31385508676945052107461800724812414007130136398293159548614582",
         "underlyingPoolAddress": "0x51AB74f8B03F0305d8dcE936B473AB587911AEC4"
       },
       {
         "id": "lendle",
-        "type": "lending",
+        "type": "vault",
         "vaultAddress": "0x20adA30a88847aB88f0b9674EF4b816715115F62",
         "vaultId": "31385508676944842327351434668029245365018635049123834193198979",
         "underlyingPoolAddress": "0xD1FC69F097141189A4d46ee84E11992e6be87Cae"
@@ -145,31 +91,15 @@
     "formAddress": "0x785Ae750fb3d72E6B3f5A5C190CAF1567eE09748",
     "pools": [
       {
-        "initCapital": {
-            "type": "lending",
-            "vaultAddress": "0xF56C53939bAd0839F76b9EC073f53025E165DB03",
-            "vaultId": "31385508676945038459843525109990509781829235037332437148831642",
-            "underlyingPoolAddress": "0x44949636f778fAD2b139E665aee11a2dc84A2976"
-        },
-        "lendle": { 
-            "type": "lending",
-            "vaultAddress": "0x380141532F1322425B4E53209d4c6f74C830BD4f",
-            "vaultId": "31385508676943760043536612103571629563142655268987005330904657",
-            "underlyingPoolAddress": "0xD1d9C7be232920BFD971b2F3B83b1C5EFe4B15d8"
-        }
-      }
-    ],
-    "_pools": [
-      {
         "id": "initCapital",
-        "type": "lending",
+        "type": "reserve",
         "vaultAddress": "0xF56C53939bAd0839F76b9EC073f53025E165DB03",
         "vaultId": "31385508676945038459843525109990509781829235037332437148831642",
         "underlyingPoolAddress": "0x44949636f778fAD2b139E665aee11a2dc84A2976"
       },
       {
         "id": "lendle",
-        "type": "lending",
+        "type": "vault",
         "vaultAddress": "0x380141532F1322425B4E53209d4c6f74C830BD4f",
         "vaultId": "31385508676943760043536612103571629563142655268987005330904657",
         "underlyingPoolAddress": "0xD1d9C7be232920BFD971b2F3B83b1C5EFe4B15d8"
