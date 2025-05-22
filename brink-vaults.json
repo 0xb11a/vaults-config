@@ -54,7 +54,7 @@
             "type": "lending",
             "vaultAddress": "0x0827FaaBD90143A236d7240870052aEAbeF11BEB",
             "vaultId": "31385508676945052107461800724812414007130136398293159548614582",
-            "underlyingPoolAddress": "0x00a55649e597d463fd212fbe48a3b40f0e227d06"
+            "underlyingPoolAddress": "0x51AB74f8B03F0305d8dcE936B473AB587911AEC4"
         },
         "lendle": { 
             "type": "lending",
@@ -70,7 +70,7 @@
         "type": "lending",
         "vaultAddress": "0x0827FaaBD90143A236d7240870052aEAbeF11BEB",
         "vaultId": "31385508676945052107461800724812414007130136398293159548614582",
-        "underlyingPoolAddress": "0x00a55649e597d463fd212fbe48a3b40f0e227d06"
+        "underlyingPoolAddress": "0x51AB74f8B03F0305d8dcE936B473AB587911AEC4"
       },
       {
         "id": "lendle",
